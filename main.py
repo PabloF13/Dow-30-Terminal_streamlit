@@ -2,7 +2,9 @@ import streamlit as st
 from datetime import datetime
 import yahoo_fin.stock_info as si
 from functions import news, predict, inter_can, financials, backtesting, it, rsi, vol, rent
+import nltk
 
+nltk.download('vader_lexicon')
 st.set_option('deprecation.showPyplotGlobalUse', False)
 today=datetime.today().strftime("%Y-%m-%d")
 stocks=si.tickers_dow()
