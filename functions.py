@@ -116,7 +116,7 @@ def predict(ticker):
     plt.plot(valid[["Close", "Predictions"]])
     plt.legend(["Train", " Val", "Predictions"], loc="upper left", facecolor='k', labelcolor='w')
     plt.tick_params(axis='both', colors='white')
-    fig.set_facecolor("#0E1117")
+    fig.set_facecolor("#262730")
     plt.grid(False)
 
 
@@ -296,7 +296,7 @@ def rsi(acciones, fecha):
     ax1.tick_params(axis='both', colors='white')
     ax1.grid(False)
     ax2.grid(False)
-    fig.set_facecolor("#0E1117")
+    fig.set_facecolor("#262730")
 
     st.pyplot(fig)
 
@@ -323,7 +323,7 @@ def vol(acciones, fecha):
     plt.tick_params(axis='both', colors='white')
     plt.xlabel("Adj Close", color="white")
     plt.ylabel("Count", color="white")
-    fig.set_facecolor("#0E1117")
+    fig.set_facecolor("#262730")
 
     st.pyplot(fig)
     st.pyplot(fig2)
