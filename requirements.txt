@@ -13,6 +13,5 @@ keras
 Keras-Preprocessing
 nltk==3.7
 plotly==5.1.0
-tensorflow
 tensorflow-estimator
 numpy
