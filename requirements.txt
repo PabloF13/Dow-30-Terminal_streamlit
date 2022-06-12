@@ -7,3 +7,10 @@ streamlit==1.10.0
 investpy==1.0.8
 yahoo-fin==0.8.9.1
 yfinance==0.1.70
+seaborn==0.11.2
+feedparser==6.0.8
+sklearn==0.0
+keras==2.6.0
+Keras-Preprocessing==1.1.2
+nltk==3.7
+plotly==5.1.0
