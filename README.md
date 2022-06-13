@@ -2,6 +2,8 @@
 
 Vamos a utilizar el framework de visualización de Streamlit para simular una terminal de datos financieros en la que podamos consultar datos como rentabilidad, noticias, análisis de sentimiento, predicción etc. de los 30 valores del Dow Jones Index
 
+*Enlace* https://share.streamlit.io/pablof13/dow-30-terminal_streamlit/main/main.py
+
 ![](img_stream/forecasting.png)
 *Predicción con machine learning*
 
