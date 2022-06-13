@@ -1,5 +1,5 @@
 # Dow Jones 30 Terminal
-![](img_stream/.png)
+![](img_stream/forecasting.png)
 
 Vamos a utilizar el framework de visualización de Streamlit para simular una terminal de datos financieros en la que podamos consultar datos como rentabilidad, noticias, análisis de sentimiento, predicción etc. de los 30 valores del Dow Jones Index
 
@@ -13,10 +13,12 @@ Vamos a utilizar el framework de visualización de Streamlit para simular una te
 *Rentabilidad diaria y anual en orden descendente diario*
 
 ![](img_stream/rsi.png)
-*Indicador RSI*
+*Indicador RSI e indicadores de volatilidad*
 
 ![](img_stream/ti.png)
 *Suma de indicadores técnicos*
 
 ![](img_stream/backtesting.png)
 *Backtesting de estrategias de trading*
+
+*Predicción con machine learning*
